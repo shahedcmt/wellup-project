@@ -1,0 +1,691 @@
+/*color code first :- #474AB4
+color code secend :- #9E7FF6
+color code therd :- #F7F8FC
+color code  :- #8585BD*/
+/*First section Stert CSS*/
+
+
+
+
+header {
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	padding-top: 5px;
+}
+header ul{
+	list-style: none;
+	display: inline;
+}
+header ul li{
+	display: inline;
+	padding: 10px 20px;
+}
+header ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+header h2{
+	display: inline;
+	font-size: 22px;
+	font-weight: 700;
+	color: black;
+	padding-left: 50px;
+	float: left;
+}
+
+
+
+
+
+.section01,
+.section03{
+	background-image:url('../img/backgroundtexture.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section01 .container-fluid {
+	background-image: linear-gradient(to bottom right, rgb(71, 74, 180, 0.8) 40%, rgb(158, 127, 246, 0.8));
+	padding: 100px 100px;
+	/*overflow: scroll;*/
+}
+.section01 .container-fluid .row #this_first_col,
+.section03 .container-fluid .row #this_first_col{
+	padding-top: 80px;
+}
+.section01 .container-fluid .row .style_img,
+.section03 .container-fluid .row .style_img{
+	height: 100%;
+	width: 100%;
+}
+.section01 .container-fluid .row h2,
+.section03 .container-fluid .row h2{
+	font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3em;
+    color: white;
+}
+.section01 .container-fluid .row p,
+.section03 .container-fluid .row p
+{
+    color: white;
+    padding-top: 30px;
+}
+.section01 .container-fluid .row button,
+.section02 .container-fluid .row button,
+.section03 .container-fluid .row button,
+.section04 .container-fluid #this_secend_row #this_secend_col button/*,
+.courses_first_section04 .container-fluid #this_secend_row #this_secend_col button*/{
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 15px;
+	font-size: 22px;
+	line-height: 50px;
+	color: white;
+	background-color: #09E1C0;
+	transition: 0.8s all;
+}
+.section01 .container-fluid .row button:hover,
+.section02 .container-fluid .row button:hover,
+.section03 .container-fluid .row button:hover,
+.section04 .container-fluid #this_secend_row #this_secend_col button: hover/*,
+.courses_first_section04 .container-fluid #this_secend_row #this_secend_col button: hover*/{
+	letter-spacing: 2px;
+}
+/*First section End CSS*/
+
+/*Secend section End CSS*/
+.section02{
+	padding: 80px 100px;
+}
+.section02 .container-fluid .row #this_first_col h2{
+	font-weight: 700;
+	font-size: 36px;
+	color: #7272ff !important;
+	line-height: 1.5em;
+}
+.section02 .container-fluid .row #this_first_col hr{
+	width: 20%;
+	height:2px;
+	border-width:0;
+	margin-left: 0px;
+	color: #09E1C0;
+	background-color: #09E1C0;
+}
+.section02 .container-fluid .row #this_first_col h4{
+	font-weight: 700;
+	font-size: 22px;
+	color: black;!important;
+	line-height: 1.2em;
+}
+.section02 .container-fluid .row #this_first_col p{
+	font-size: 16px;
+	color: black;!important;
+	line-height: 1.5em;
+}
+.section02 .container-fluid .row #this_secend_col .row{
+	padding: 15px 10px;
+}
+.section02 .container-fluid .row #this_secend_col .row .icon_img{
+	height: 45%;
+	width: 100%;
+}
+.section02 .container-fluid .row #this_secend_col .row h2{
+	font-weight: 700;
+	font-size: 18px;
+	color: #2e2545 !important;
+	line-height: 1.5em;
+}
+.section02 .container-fluid .row #this_secend_col .row p{
+	font-size: 17px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}
+
+/*Secend section End CSS*/
+/*Therd section Stert CSS*/
+.section03 .container-fluid{
+	background-image: linear-gradient(to bottom right, rgb(71, 74, 180, 0.8) 40%, rgb(158, 127, 246, 0.8));
+	padding: 100px 100px 180px 100px;
+}
+
+/*Therd section End CSS*/
+/*Secend04 section start CSS*/
+.section04
+{
+	padding: 80px 100px;
+	background-color: #F7F8FC;
+}
+.section04 .container-fluid #this_Frist_row {
+	margin-top: -160px;
+}
+.section04 .container-fluid .row #this_secend_col .row,
+.section04 .container-fluid .row #this_Frist_col .row{
+	padding: 15px 10px;
+	width: 95%;
+}
+.section04 .container-fluid .row #this_secend_col .row {
+	margin-left: 5%;
+}
+.section04 .container-fluid .row #this_secend_col #icon_box,
+.section04 .container-fluid .row #this_Frist_col #icon_box{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section04 .container-fluid .row #this_secend_col .row .icon_img,
+.section04 .container-fluid .row #this_Frist_col .row .icon_img{
+	height: 45%;
+	width: 100%;
+}
+.section04 .container-fluid .row #this_secend_col .row h2,
+.section04 .container-fluid .row #this_Frist_col .row h2{
+	font-weight: 700;
+	font-size: 18px;
+	color: #9E7FF6 !important;
+	line-height: 1.5em;
+}
+.section04 .container-fluid .row #this_secend_col .row p,
+.section04 .container-fluid .row #this_Frist_col .row p{
+	font-size: 17px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}
+
+.section04 .container-fluid #this_secend_row
+{
+	margin-top: 80px;
+}
+.section04 .container-fluid #this_secend_row h2 {
+	font-weight: 700;
+	font-size: 36px;
+	color: #7272ff !important;
+	line-height: 1.5em;
+}
+.section04 .container-fluid #this_secend_row h3 {
+	font-size: 24px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}
+.section04 .container-fluid #this_secend_row #this_therd_col button{
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 15px;
+	font-size: 22px;
+	line-height: 50px;
+	color: #7272ff !important;
+	background-color: white;
+	transition: 0.8s all;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section04 .container-fluid #this_secend_row #this_therd_col button: hover{
+	letter-spacing: 2px;
+}
+/*Secend04 section End CSS*/
+
+/*First section Stert CSS*/ 
+.courses_first_section01{
+	background-image:url('../img/backgroundtexture.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.courses_first_section01 .container-fluid {
+	background-image: linear-gradient(to bottom right, rgb(71, 74, 180, 0.8) 40%, rgb(158, 127, 246, 0.8));
+	padding: 100px 100px;
+}
+.courses_first_section01 .container-fluid .row #this_first_col{
+    padding-bottom: 80px;
+}
+.courses_first_section01 .container-fluid .row .style_img{
+	height: 100%;
+	width: 100%;
+}
+.courses_first_section01 .container-fluid .row h2{
+	font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3em;
+    color: white;
+	width: 60%;
+	margin-left: 20%;
+}
+.courses_first_section01 .container-fluid .row p
+{
+    color: #8585BD;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+}
+/*First section End CSS*/
+
+
+
+/*Secend04 section start CSS*/
+.courses_first_section04
+{
+	padding: 80px 100px;
+	background-color: #F7F8FC;
+	margin-bottom: 80px;
+}
+/*.section04 .container-fluid .row #this_secend_col {
+	width: 40%;
+	margin-left: 10%;
+}
+.section04 .container-fluid .row #this_Frist_col {
+	width: 40%;
+	margin-right: 10%;
+}*/
+.courses_first_section04 .container-fluid #this_Frist_row {
+	margin-top: -160px;
+}
+
+.courses_first_section04 .container-fluid #this_Frist_row {
+	margin-top: -160px;
+}
+
+.courses_first_section04 .container-fluid .row #this_secend_col .row,
+.courses_first_section04 .container-fluid .row #this_Frist_col .row{
+	padding: 15px 10px;
+	width: 95%;
+	height: 100%;
+}
+.courses_first_section04 .container-fluid .row #this_secend_col .row {
+	margin-left: 5%;
+}
+.courses_first_section04 .container-fluid .row #this_secend_col #icon_box,
+.courses_first_section04 .container-fluid .row #this_Frist_col #icon_box{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.courses_first_section04 .container-fluid .row #this_secend_col .row .icon_img,
+.courses_first_section04 .container-fluid .row #this_Frist_col .row .icon_img{
+	height: 45%;
+	width: 100%;
+}
+.courses_first_section04 .container-fluid .row #this_secend_col .row h2,
+.courses_first_section04 .container-fluid .row #this_Frist_col .row h2{
+	font-weight: 700;
+	font-size: 18px;
+	color: #2e2545 !important;
+	line-height: 1.5em;
+}
+.courses_first_section04 .container-fluid .row #this_secend_col .row p,
+.courses_first_section04 .container-fluid .row #this_Frist_col .row p{
+	font-size: 17px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}
+.courses_first_section04 .container-fluid .row #this_secend_col .row h3,
+.courses_first_section04 .container-fluid .row #this_Frist_col .row h3{
+	font-size: 20px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.courses_first_section04 .container-fluid #this_Frist_row_copy
+{
+	margin-top: 80px;
+}
+/*
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col .row,
+.courses_first_section04 .container-fluid #this_thedr_row #this_Frist_col .row{
+	padding: 15px 10px;
+	width: 95%;
+	height: 100%;
+}
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col .row {
+	margin-left: 5%;
+}
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col #icon_box,
+.courses_first_section04 .container-fluid #this_thedr_row #this_Frist_col #icon_box{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col .row .icon_img,
+.courses_first_section04 .container-fluid #this_thedr_row #this_Frist_col .row .icon_img{
+	height: 45%;
+	width: 100%;
+}
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col .row h2,
+.courses_first_section04 .container-fluid #this_thedr_row #this_Frist_col .row h2{
+	font-weight: 700;
+	font-size: 18px;
+	color: #9E7FF6 !important;
+	line-height: 1.5em;
+}
+.courses_first_section04 .container-fluid #this_thedr_row #this_secend_col .row p,
+.courses_first_section04 .container-fluid #this_thedr_row #this_Frist_col .row p{
+	font-size: 17px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}*/
+
+.courses_first_section04 .container-fluid #this_thedr_row
+{
+	margin-top: 80px;
+}
+
+.courses_first_section04 .container-fluid #this_secend_row
+{
+	margin-top: 80px;
+}
+.courses_first_section04 .container-fluid #this_secend_row h2 {
+	font-weight: 700;
+	font-size: 36px;
+	color: #7272ff !important;
+	line-height: 1.5em;
+}
+.courses_first_section04 .container-fluid #this_secend_row h3 {
+	font-size: 24px;
+	color: #8585BD !important;
+	line-height: 1.5em;
+}
+.courses_first_section04 .container-fluid #this_secend_row #this_therd_col button{
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 15px;
+	font-size: 22px;
+	line-height: 50px;
+	color: #7272ff;
+	background-color: white;
+	transition: 0.8s all;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.courses_first_section04 .container-fluid #this_secend_row #this_therd_col button: hover{
+	letter-spacing: 2px;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_first_col
+{
+	background-color: red;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_first_col form h4{
+  font-weight: 700;
+  font-size: 36px;
+  color: #9271f6 !important;
+  line-height: 1.3em;
+  text-align: left;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_first_col form input,
+.courses_first_section01 .container-fluid #this_from_row #this_first_col form textarea{
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(71,74,182,0.12);
+	width: 100%;
+	line-height: 26px;
+	padding: 6px;
+	margin-bottom: 30px;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_first_col form button{
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 15px;
+	font-size: 22px;
+	line-height: 50px;
+	color: white;
+	background-color: #09E1C0;
+	float: right;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_secend_col{
+	background-color: #09E1C0;
+	padding: 0px;
+	padding-top: 60px;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_secend_col p
+{
+	line-height: 18px;
+	font-size: 18px;
+	color: white;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_secend_col ul{
+	list-style: none;
+	text-decoration: none;
+	margin-left: 30px;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_secend_col ul li{
+	display: inline;
+}
+.courses_first_section01 .container-fluid #this_from_row #this_secend_col ul li i{
+	color: white;
+	font-size: 22px;
+	padding: 10px 10px 10px 10px;
+}
+/*Secend04 section End CSS*/
+
+
+/**********************************************************
+ ********************************************************************************
+ **********************************************************/
+/*About Secend01 section Stert CSS*/
+.about_section01{
+	background-image:url('../img/backgroundtexture.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about_section01 .container-fluid{
+	background-image: linear-gradient(to bottom right, rgb(71, 74, 180, 0.8) 40%, rgb(158, 127, 246, 0.8));
+	padding: 100px 100px;
+}
+
+.about_section01 .container-fluid .row #this_first_col h2{
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.3em;
+	color: white;
+}
+.about_section01 .container-fluid .row #this_first_col p{
+	border: 0;
+	outline: 0;
+	font-size:18px;
+	vertical-align: baseline;
+	background: transparent;
+	color: white;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+.about_section01 .container-fluid .row #this_first_col button{
+	  color: #7272ff !important;
+	  border-width: 0px !important;
+	  border-radius: 50px;
+	  letter-spacing: 1px;
+	  font-size: 17px;
+	  font-weight: 700 !important;
+	  text-transform: uppercase !important;
+	  background-color: #ffffff;
+	  transition: 0.5s all;
+	  line-height: 30px;
+	  padding: 8px 10px;
+}
+.about_section01 .container-fluid .row #this_first_col button:hover{
+	letter-spacing: 2px;
+}
+.about_section01 .container-fluid .row #this_secend_col{}
+/*About Secend01 section End CSS*/
+
+/*About Secend02 section End CSS*/
+.about_section02 .container-fluid{
+	padding: 100px 100px;
+}
+.about_section02 .container-fluid .row #this_first_col img{
+	width: 80px;
+	height: 80px;
+}
+.about_section02 .container-fluid .row #this_first_col h2{
+	font-weight: 700;
+	font-size: 36px;
+	color: #7272ff !important;
+	line-height: 1.3em;
+	background: transparent;
+}
+.about_section02 .container-fluid .row #this_first_col hr{
+	width: 15%;
+	height:4px;
+	border-width:0;
+	margin-left: 0px;
+	color: #09E1C0;
+	background-color: #09E1C0;
+}
+.about_section02 .container-fluid .row #this_first_col h3{
+   font-size: 18px;
+   color: black;
+   font-weight: 600;
+   color: #2e2545;
+   vertical-align: baseline; 
+   background: transparent;
+}
+.about_section02 .container-fluid .row #this_first_col p{
+   font-size: 16px;
+   color: black;
+   font-weight: 400;
+   color: #8585bd;
+   line-height: 30px;
+   vertical-align: baseline; 
+   background: transparent;
+}
+.about_section02 .container-fluid .row #this_secend_col img{
+	height: 90%;
+	width: 90%;
+}
+/*About Secend02 section End CSS*/
+
+
+
+
+.about_section04{
+	background-image:url('../img/backgroundtexture.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about_section04 .container-fluid .row #this_secend_col{
+	padding-top: 80px;
+}
+.about_section04 .container-fluid .row .style_img{
+	height: 100%;
+	width: 100%;
+}
+.about_section04 .container-fluid .row h2{
+	font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3em;
+    color: white;
+}
+.about_section04 .container-fluid .row .this_secend_col hr{
+	width: 15%;
+	height:4px;
+	border-width:0;
+	margin-left: 0px;
+	color: #09E1C0;
+	background-color: #09E1C0;
+}
+.about_section04 .container-fluid .row p
+{
+    color: white;
+    padding-top: 30px;
+}
+.about_section04 .container-fluid .row button{
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 15px;
+	font-size: 22px;
+	line-height: 50px;
+	color: white;
+	background-color: #09E1C0;
+	transition: 0.8s all;
+}
+.about_section04 .container-fluid .row button:hover{
+	letter-spacing: 2px;
+}
+.about_section04 .container-fluid{
+	background-image: linear-gradient(to bottom right, rgb(71, 74, 180, 0.8) 40%, rgb(158, 127, 246, 0.8));
+	padding: 100px 100px 180px 100px;
+}
+
+
+
+
+
+
+
+/**************************
+ *******************
+ **************************/
+
+ .contact_section_02 
+ {
+ 	padding: 100px 80px;
+ }
+  .contact_section_02 .container-fluid #this_Frist_row h2{
+  	font-weight: 700;
+font-size: 36px;
+color: #7272ff !important;
+line-height: 1.3em;
+  }
+.contact_section_02 .container-fluid #this_Frist_row hr{
+width: 12%;
+	height:4px;
+	border-width:0;
+	color: #09E1C0;
+	background-color: #09E1C0;
+}
+.contact_section_02 .container-fluid #this_Frist_row p{
+    color: #8585bd;
+    font-size: 18px;
+}
+.contact_section_02 .container-fluid #this_secend_row h3{
+	font-weight: 700;
+    color: #2e2545 !important;
+    font-size: 20px;
+}
+.contact_section_02 .container-fluid #this_secend_row p{
+	color: #8585bd;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+
+.courses_first_section01 .container-fluid form
+{
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+.courses_first_section01 .container-fluid form input{
+	margin-left: 10%;
+	width: 80%;
+	text-align: left;
+	font-size: 18px;
+	line-height: 32px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding-left: 15px;
+}
+.courses_first_section01 .container-fluid form button{
+	background-color: #09E1C0;
+	width: 80%;
+	margin-left: 10%;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 35px;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	color: white;
+}
